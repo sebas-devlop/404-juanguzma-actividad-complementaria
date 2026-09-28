@@ -28,9 +28,6 @@ public class EmpleadoBase {
     public void setSalarioBase(double salarioBase) {
         if (salarioBase >= 0) {
             this.salarioBase = salarioBase;
-            CLAS ES , CONSTRUCTORES Y ENCAPSULAMI ENTO
-
-            Laboratorio Java · Sistema CRUD de Talento Humano Prof. Edwin Rozo Gómez · 4
 
         } else {
             this.salarioBase = 0; // nunca aceptamos salarios negativos.
