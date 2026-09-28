@@ -33,7 +33,7 @@ public class EmpleadoBase {
             Laboratorio Java · Sistema CRUD de Talento Humano Prof. Edwin Rozo Gómez · 4
 
         } else {
-            this.salarioBase = 0; // nunca aceptamos salarios negativos
+            this.salarioBase = 0; // nunca aceptamos salarios negativos.
         }
     }
     // Métodos que las clases hijas podrán SOBRESCRIBIR (polimorfismo)
