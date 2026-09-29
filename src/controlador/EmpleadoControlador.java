@@ -130,7 +130,7 @@ public class EmpleadoControlador {
         return "No existe ningún empleado con la cédula " + cedula + ".";
     }
 
-    // BONUS: la tabla muestra los empleados ordenados alfabéticamente por nombre
+    // BONUS: la tabla muestra los empleados ordenados alfabéticamente. por nombre
     public ArrayList<EmpleadoBase> obtenerEmpleados() {
         ArrayList<EmpleadoBase> lista = repositorio.listarTodos();
         lista.sort(Comparator.comparing(EmpleadoBase::getNombre, String.CASE_INSENSITIVE_ORDER));
